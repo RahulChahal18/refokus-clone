@@ -1,0 +1,24 @@
+COMPONENTS
+
+App
+   -> Navbar
+            Button 
+   -> Work
+   -> Stripes
+            Stripe
+   -> Products
+            Product
+   -> Marquee
+   ->Cards
+            Card
+   -> Footer
+
+ANIMATIONS
+
+smoothness handle -> locomotive js - beta
+animation of work component
+   - we will use framer motion, which basically gives us the value of how much we have scrolled the page
+   - jab value 25 ho, tb 1st image
+   - jab value 50 ho, tb 2nd image
+   - jab value 25 ho, tb 1st image
+   - jab value 25 ho, tb 1st image
