@@ -7,7 +7,7 @@ import Products from './components/Products'
 import Marquees from './components/Marquees'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
-import LocomotiveScroll from 'locomotive-scroll';
+import LocomotiveScroll from 'locomotive-scroll'; 
 
 
 const page = () => {
