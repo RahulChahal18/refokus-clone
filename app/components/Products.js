@@ -16,23 +16,23 @@ export default function Products() {
     ];
 
      // Array of video URLs
-    // const videoUrls = [
-    //   {url: 'public/video1_Arqitel.mp4'},
-    //   {url: 'public/video2_Cula_promo.mp4'},
-    //   {url: 'public/video3_Maniv.mp4'},
-    //   {url: 'public/video4_people.mp4'},
-    //   {url: 'public/video1_Arqitel.mp4'},
-    //   {url: 'public/video5_Silvr.mp4'},
-    //   {url: 'public/video6_webflow-education-promo.mp4'}
-    // ];
     const videoUrls = [
-      'https://youtu.be/Gy8Xltuuh0E?si=q_IBa_sKniCR742C',
-      'https://youtu.be/1KAggd44iEY?si=qO3eJG8xvbRcB2tY',
-      'https://youtu.be/3-iCDOYkfms?si=hD2hRbGLqnRQwgCe',
-      'https://youtu.be/d1VN6h8m498?si=do-eUF4g_QbwjK3u',
-      'https://youtu.be/CNrPV6l5RyE?si=k9GEtSv3ISbCcYVp',
-      'https://youtu.be/xlKFto5QwVY?si=WnzzCl9IaEDfgunf'
+      {url: 'public/video1_Arqitel.mp4'},
+      {url: 'public/video2_Cula_promo.mp4'},
+      {url: 'public/video3_Maniv.mp4'},
+      {url: 'public/video4_people.mp4'},
+      {url: 'public/video1_Arqitel.mp4'},
+      {url: 'public/video5_Silvr.mp4'},
+      {url: 'public/video6_webflow-education-promo.mp4'}
     ];
+    // const videoUrls = [
+    //   'https://youtu.be/Gy8Xltuuh0E?si=q_IBa_sKniCR742C',
+    //   'https://youtu.be/1KAggd44iEY?si=qO3eJG8xvbRcB2tY',
+    //   'https://youtu.be/3-iCDOYkfms?si=hD2hRbGLqnRQwgCe',
+    //   'https://youtu.be/d1VN6h8m498?si=do-eUF4g_QbwjK3u',
+    //   'https://youtu.be/CNrPV6l5RyE?si=k9GEtSv3ISbCcYVp',
+    //   'https://youtu.be/xlKFto5QwVY?si=WnzzCl9IaEDfgunf'
+    // ];
     
 
     const [pos,setPos] = useState(0);
@@ -72,7 +72,7 @@ export default function Products() {
                   <ReactPlayer
                     height="100%"
                     width="100%"
-                    url='https://youtu.be/Gy8Xltuuh0E?si=q_IBa_sKniCR742C'
+                    url={videoUrls[index].url}
                     loop={true}
                     autoPlay={true}
                     controls={false}
