@@ -13,12 +13,12 @@ import LocomotiveScroll from 'locomotive-scroll';
 const page = () => {
   useEffect(() => {
     // Check if window is defined before instantiating LocomotiveScroll
-    if (typeof window !== 'undefined') {
+    //if (typeof window !== 'undefined') {
       const locomotiveScroll = new LocomotiveScroll();
-      return () => {
-        locomotiveScroll.destroy(); // Clean up on component unmount
-      };
-    }
+      //return () => {
+       // locomotiveScroll.destroy(); // Clean up on component unmount
+      //};
+    //}
   }, []); // Empty dependency array to ensure it only runs once after component mounts
 
   return (
